@@ -40,7 +40,7 @@
 
 1. 尽量使用合成、聚合的方式，而不是使用继承
 
-![image-20210523214447341](/Users/unclebryan/Library/Application Support/typora-user-images/image-20210523214447341.png)
+![image-20210523214447341](src/main/resources/image/typora-user-images/image-20210523214447341.png)
 
 
 
@@ -76,12 +76,12 @@
 
 5. 聚合关系 Aggregation
 
-   ![image-20210523222040292](/Users/unclebryan/Library/Application Support/typora-user-images/image-20210523222040292.png)
+   ![image-20210523222040292](src/main/resources/image/typora-user-images/image-20210523222040292.png)
 
 6. 组合关系 Composition 整体和局部不可分开
-   1. ![image-20210523222313658](/Users/unclebryan/Library/Application Support/typora-user-images/image-20210523222313658.png)
+   1. ![image-20210523222313658](src/main/resources/image/typora-user-images/image-20210523222313658.png)
 
-![image-20210523222419016](/Users/unclebryan/Library/Application Support/typora-user-images/image-20210523222419016.png)
+![image-20210523222419016](src/main/resources/image/typora-user-images/image-20210523222419016.png)
 
 #### 设计模式
 
@@ -127,7 +127,7 @@
 
 简单工厂模式是由一个工厂对象决定创建出哪一类产品类的实例；简单工厂模式：定义一个创建对象的类，由这个类来封装实例化对象的行为
 
-![image-20210527221656439](/Users/unclebryan/Library/Application Support/typora-user-images/image-20210527221656439.png)
+![image-20210527221656439](src/main/resources/image/typora-user-images/image-20210527221656439.png)
 
 ##### 工厂方法模式
 
@@ -135,7 +135,7 @@
 
 工厂方法模式：定义了一个创建对象的抽象方法，由子类决定要实例化的类。工厂方法模式将对象的实例化推迟到子类。
 
-![image-20210527222023810](/Users/unclebryan/Library/Application Support/typora-user-images/image-20210527222023810.png)
+![image-20210527222023810](src/main/resources/image/typora-user-images/image-20210527222023810.png)
 
 
 
@@ -145,7 +145,7 @@
 
 定义了一个interface用于创建相关或者有依赖关系的对象簇，而无需指明具体的类；抽象工厂模式可以将简单工厂模式和工厂方法模式进行整合。将工厂抽象成两层，抽象工厂和具体实现的工厂子类。
 
-![image-20210527222438393](/Users/unclebryan/Library/Application Support/typora-user-images/image-20210527222438393.png)
+![image-20210527222438393](src/main/resources/image/typora-user-images/image-20210527222438393.png)
 
 
 
@@ -157,7 +157,7 @@
 2. 原型模式是一种创建型设计模式，允许一个对象再创建另外一个可定制的对象，无需指定如何创建的细节
 3. 工作原理：通过将一个原型对象传给那个要发动创建的对象，这个要发动创建的对象通过请求原型对象拷贝它们自己来实施创建，即对象.clone()
 
-![image-20210528000712292](/Users/unclebryan/Library/Application Support/typora-user-images/image-20210528000712292.png)
+![image-20210528000712292](src/main/resources/image/typora-user-images/image-20210528000712292.png)
 
 ###### 浅拷贝
 
